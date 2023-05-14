@@ -10,8 +10,8 @@
     "lint:fix": "next lint --fix",
     "preview": "next build && next start",
     "typecheck": "tsc --noEmit",
-    "format:write": "prettier --write \"**/*.{ts,tsx,mdx,yml}\" --cache",
-    "format:check": "prettier --check \"**/*.{ts,tsx,mdx,yml}\" --cache"
+    "format:write": "prettier --write \"**/*.{js,ts,tsx,mdx,yml}\" --cache",
+    "format:check": "prettier --check \"**/*.{js,ts,tsx,mdx,yml}\" --cache"
   },
   "dependencies": {
     "class-variance-authority": "^0.6.0",
