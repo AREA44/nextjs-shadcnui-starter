@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  basePath: "/next-shadcnui-starter", //Enable this if deploy to GitHub Pages
+  basePath: process.env.CI ? "/next-shadcnui-starter" : undefined,
   output: "export",
 }
 
